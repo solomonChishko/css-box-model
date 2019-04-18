@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+em, strong {
+  background-color: #DDE0E3;
+  display: inline;             /* This is the default for em and strong */
+}
+em, strong {
+  background-color: #B2D6FF;
+  display: inline;             /* This is the default for em and strong */
+}
+
+p {
+  padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+}
+h1 {
+  padding: 50px;
+  border-bottom: 1px solid #5D6063;
+}
+p {
+  padding: 20px 0 20px 10px;
+  margin-bottom: 50px;          /* Add this */
+}
+p {
+  padding: 20px 0 20px 10px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  box-sizing: border-box;  /* Add this */
+}
+div {
+  /* [Existing Declarations] */
+  width: 200px;
+}
+div {
+  /* [Existing Declarations] */
+  width: 200px;
+}
+body {
+  text-align: center;
+}
+div {
+  color: #FFF;
+  background-color: #4A90E2;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical  Horizontal */
+}
